@@ -9,6 +9,7 @@
     background-color: #FFFFFF;
     background-image: url(../demo-passing1/images/header_bg.png);
     background-repeat: no-repeat;
+    
      
 }
 .text-primary {
@@ -19,6 +20,7 @@ nav {
   display: flex;
   margin: 50px 200px;
   justify-content: space-between;
+
 
 
 
@@ -79,4 +81,17 @@ nav li {
   font-size: 18px;
   color: #757575;
   margin-bottom: 20px;
+}
+/* hover work for p tag */
+.gy:hover{
+  color: #FD6E0A;
+}
+.work{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+li:first-child{
+         color: rgb(0, 255, 13);
 }
